@@ -3,6 +3,4 @@ __pycache__/
 .env
 logs/*
 data/recordings/*
-*.avi
-*.mp4
 .vscode/
