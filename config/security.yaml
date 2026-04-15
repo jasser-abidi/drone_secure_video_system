@@ -1,0 +1,6 @@
+security:
+  passphrase: PFE_secure_2026
+  pbkeylen: 32
+  vpn: tailscale
+  encryption: AES256
+  

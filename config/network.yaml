@@ -1,0 +1,5 @@
+network:
+  pc_ip: 100.107.37.62
+  srt_port: 9000
+  rtt_port: 9001
+  srt_latency: 50
