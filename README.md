@@ -120,14 +120,31 @@ Due to CGNAT and IPv6 limitations in mobile networks, Tailscale is used to ensur
 
 ---
 
+## 🎥 Demo Videos
 
+This project includes real experimental tests:
 
+- 3G Orange network test
+- 4G network test
+- WiFi local test
+- 2 km distance test
+
+These videos demonstrate real-time streaming performance under different network conditions.
+
+## 📊 Experimental Results
+
+- Latency (4G hotspot): ~90 ms
+- Latency (Orange dongle): ~300 ms
+- Jitter: ~25 ms
+- Distance tested: 2 km
+
+The system maintains stable video transmission with low latency using SRT and VPN.
 
 ## Run
 
-### On Raspberry Pi
-```bash
-bash scripts/run_bridge.sh
+1/ lancer partie receiver ( receiver_launch.py)
+2/lancer camera ( camera_launch.py)
+3/lancer partie bridge ( bridge_launch.py)
 
 
 
