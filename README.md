@@ -143,7 +143,9 @@ The system maintains stable video transmission with low latency using SRT and VP
 ## Run
 
 1/ lancer partie receiver ( receiver_launch.py)
+
 2/lancer camera ( camera_launch.py)
+
 3/lancer partie bridge ( bridge_launch.py)
 
 
